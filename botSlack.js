@@ -26,8 +26,8 @@ if (process.env.MONGO_URI) {
   });
 }
 console.log(
-  "bot token",
-  "xoxb-3240171063603-4585922425892-dCu1UQ6kzRawxTijLu2i4TGz"
+  "bot token 1",
+  "xoxb-3240171063603-4585922425892-6OnefDskA9ijiV6SuaB4Y9G1"
 );
 
 const adapter = new SlackAdapter({
@@ -39,7 +39,7 @@ const adapter = new SlackAdapter({
   clientSigningSecret: "ab17de492c9705da7ffb34df761ed133",
 
   // auth token for a single-team app
-  botToken: "xoxb-3240171063603-4585922425892-dCu1UQ6kzRawxTijLu2i4TGz",
+  botToken: "xoxb-3240171063603-4585922425892-6OnefDskA9ijiV6SuaB4Y9G1",
 
   clientId: "3240171063603.4580451420693",
   clientSecret: "7853456a7bb656c22dfabc231868f233",
