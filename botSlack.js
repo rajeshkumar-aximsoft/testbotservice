@@ -29,14 +29,14 @@ const adapter = new SlackAdapter({
   // enable_incomplete: true,
 
   // parameters used to secure webhook endpoint
-  verificationToken: process.env.VERIFICATION_TOKEN,
-  clientSigningSecret: process.env.CLIENT_SIGNIN_SECRET,
+  verificationToken: "gWTkIxXEbKNPLcZLeQR391xp",
+  clientSigningSecret: "ab17de492c9705da7ffb34df761ed133",
 
   // auth token for a single-team app
-  botToken: process.env.BOT_TOKEN,
+  botToken: "xoxb-3240171063603-4585922425892-js3YgIJsZUo0gNaS75sU110M",
 
-  clientId: process.env.CLIENT_ID,
-  clientSecret: process.env.CLIENT_SECRET,
+  clientId: "3240171063603.4580451420693",
+  clientSecret: "7853456a7bb656c22dfabc231868f233",
   oauthVersion: 'v2',
 
   // functions required for retrieving team-specific info
