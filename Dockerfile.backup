@@ -1,0 +1,7 @@
+FROM node:latest
+MAINTAINER aximsoftadmin@aximsoft.com
+WORKDIR /webchat-botservice
+COPY . /webchat-botservice
+RUN npm install
+EXPOSE 3202
+CMD npm run start-web;
