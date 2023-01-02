@@ -33,7 +33,7 @@ const adapter = new SlackAdapter({
   clientSigningSecret: "ab17de492c9705da7ffb34df761ed133",
 
   // auth token for a single-team app
-  botToken: "xoxb-3240171063603-4585922425892-YL3HhwUxFmS5uBDf2wrnT5os",
+  botToken: "xoxb-3240171063603-4585922425892-dCu1UQ6kzRawxTijLu2i4TGz",
 
   clientId: "3240171063603.4580451420693",
   clientSecret: "7853456a7bb656c22dfabc231868f233",
